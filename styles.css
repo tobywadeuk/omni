@@ -1,0 +1,396 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  */
+/*  */
+/*  */
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  width: 100vw;
+
+  color: white;
+  font-family: Sora;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("shiny.svg");
+}
+
+.container {
+  width: 82.5vw;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.landing {
+}
+
+.globeimg {
+  width: 10.42vw;
+}
+
+.textone {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.texttwo {
+  font-weight: 700;
+  font-size: 6.25em;
+  line-height: 1.2;
+}
+
+.textthree {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.arrowimg {
+  width: 3.47vw;
+}
+
+.offer {
+  height: 100vh;
+}
+
+.hormozi {
+  width: 100%;
+}
+
+.offertext {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1.25;
+}
+
+/*  */
+
+.whyus {
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trio {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-evenly;
+}
+
+.trioleft {
+}
+
+.trioright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.network {
+  width: 10.42vw;
+}
+
+.textfour {
+  font-size: 3.75em;
+  font-weight: 700;
+}
+
+.textfive {
+  font-size: 2.2em;
+  margin-bottom: 0.69vw;
+}
+
+.textsix {
+  font-weight: 300;
+  font-size: 1.25em;
+  max-width: 50ch;
+  line-height: 1.5;
+}
+
+/*  */
+
+.ourwork {
+  height: 75vh;
+}
+
+.textseven {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 6.55vh 3.5vw;
+}
+
+.tiktokpng {
+  width: 17.36vw;
+}
+
+/*  */
+
+.founder {
+  height: 20vh;
+}
+
+.area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tobypic {
+  width: 12.15vw;
+  margin-right: 3.47vw;
+}
+
+.texteight {
+  font-weight: 300;
+  font-size: 1.125em;
+  max-width: 40ch;
+  line-height: 1.75;
+}
+
+/*  */
+.cta {
+  height: 100vh;
+}
+
+.textnine {
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.textten {
+  font-size: 1.56em;
+  max-width: 55ch;
+}
+
+.calendly {
+  width: 34.72vw;
+  background-color: black;
+}
+
+.br {
+  height: 0.66vh;
+  background-color: white;
+  width: 100%;
+  margin: 5vh 0;
+  border-radius: 6.55vh 3.47vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 3.47vw;
+  margin: 0 0.69vw;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.calendly {
+  display: flex;
+  justify-content: center;
+  outline: solid white 0.35vw;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  .texttwo {
+    font-size: 5em;
+  }
+  .offer,
+  .whyus {
+    height: 60vh;
+  }
+  .ourwork {
+    height: 30vh;
+  }
+  .founder {
+    height: 10vh;
+  }
+  .cta {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .calendly {
+    max-width: 90vw;
+  }
+}
