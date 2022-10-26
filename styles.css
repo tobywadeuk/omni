@@ -140,7 +140,7 @@ body {
   width: 100vw;
 
   color: white;
-  font-family: Sora;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 
   display: flex;
@@ -167,7 +167,7 @@ body {
 }
 
 .globeimg {
-  width: 10.42vw;
+  width: 55vw;
 }
 
 .textone {
@@ -177,7 +177,7 @@ body {
 
 .texttwo {
   font-weight: 700;
-  font-size: 6.25em;
+  font-size: 3.25em;
   line-height: 1.2;
 }
 
@@ -253,11 +253,11 @@ body {
 /*  */
 
 .ourwork {
-  height: 75vh;
+  height: 55vh;
 }
 
 .textseven {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 600;
 }
 
@@ -291,8 +291,8 @@ body {
 }
 
 .texteight {
-  font-weight: 300;
-  font-size: 1.125em;
+  font-weight: 500;
+  font-size: 1.5em;
   max-width: 40ch;
   line-height: 1.75;
 }
@@ -304,7 +304,7 @@ body {
 
 .textnine {
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .textten {
@@ -313,7 +313,7 @@ body {
 }
 
 .calendly {
-  width: 34.72vw;
+  /* width: 30vw; */
   background-color: black;
 }
 
@@ -334,7 +334,7 @@ body {
 }
 
 .icon {
-  width: 3.47vw;
+  width: 3.5vw;
   margin: 0 0.69vw;
 }
 
