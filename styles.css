@@ -268,6 +268,32 @@ body {
   gap: 6.55vh 3.5vw;
 }
 
+.tips {
+  height: 100vh;
+}
+
+.igpic {
+  width: 20vw;
+}
+
+.aigpic5 {
+  grid-row: 2 / 2;
+  grid-column: 2 / 4;
+}
+
+.igpic5 {
+  width: 36vw;
+  grid-row: 2 / 2;
+  grid-column: 2 / 4;
+}
+
+.gridig {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6.55vh 3.5vw;
+}
+
 .test2 {
   width: 35vw;
 }
