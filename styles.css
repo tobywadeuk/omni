@@ -144,6 +144,7 @@ body {
   text-align: center;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -427,4 +428,142 @@ img:hover {
   .calendly {
     max-width: 90vw;
   }
+}
+
+.titletext {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 4em;
+}
+
+.calculator {
+  /* height: 10vh; */
+  font-family: "Inter", sans-serif;
+}
+
+.top {
+  /* background-color: red; */
+  height: 40vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topleft {
+  /* background-color: blueviolet; */
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.topright {
+  /* background-color: blue; */
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.bottom {
+  /* background-color: green; */
+  height: 40vh;
+  width: 100vw;
+}
+
+.bottomtrio {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trio {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.trioname {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.trionumber {
+  font-size: 2em;
+}
+
+.triocalc {
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+#trionumber3 {
+  text-decoration: underline;
+}
+
+.input {
+  border: solid 2px white;
+  color: white;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: transparent;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qone,
+.qtwo,
+.qthree,
+.qfour {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.qtext {
+  width: 300px;
+}
+
+.roibutton {
+  display: inline-block;
+  cursor: pointer;
+  padding: 18px 48px;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #24292e;
+  background-color: #fafbfc;
+  border-color: #1b1f2326;
+  font-family: Inter;
+}
+
+.roibutton:hover {
+  color: white;
+  background-color: lightseagreen;
+}
+
+.bottomintro {
+  text-align: center;
+  display: none;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.roilanding {
+  height: 50vh;
 }
