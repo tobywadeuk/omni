@@ -13,6 +13,7 @@ let calc2 = document.getElementById("triocalc2")
 let calc3 = document.getElementById("triocalc3")
 let calc4 = document.getElementById("triocalc4")
 let bottomintro = document.getElementById("bottomintro")
+let bottomintro2 = document.getElementById("bottomintro2")
 
 
 closing.addEventListener("input", calc)
@@ -55,5 +56,8 @@ function calc(){
 
     calc4.textContent = "$" + newrev + "-" + "$" + totalcost
 
+    bottomintro2.textContent = "For everyone $1 you spend, you'll receive $" + Math.round(roicalc * 100) / 100
+
     bottomintro.style.display = "block"
+    bottomintro2.style.display = "block"
 }
