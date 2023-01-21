@@ -183,8 +183,10 @@ body {
 }
 
 .textthree {
-  font-weight: 600;
-  font-size: 2em;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.5;
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-6deg, 0deg);
 }
 
 .arrowimg {
@@ -348,7 +350,6 @@ body {
 }
 
 .calendly {
-  /* width: 30vw; */
   background-color: black;
 }
 
